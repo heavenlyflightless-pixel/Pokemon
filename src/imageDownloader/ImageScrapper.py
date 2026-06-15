@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 
 # Scrapes Image URLs from Bulbapedia
 offset = 0
-limit = 1025
+limit = 386
 # Retrieve All Pokemon Names
 url = f"https://pokeapi.co/api/v2/pokemon/?offset={offset}&limit={limit}"
 r = requests.get(url)
